@@ -1,0 +1,48 @@
+body {
+    font-family: 'Cardo', serif;
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+   }
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    opacity: 80%;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .fa-brands:link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .fa-brands:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .fa-brands:hover {
+    text-decoration: none;
+    color: hsl(209, 22%, 38%);
+  }
+  
+  .fa-brands:active {
+    text-decoration: none;
+    color: inherit;
+  }
