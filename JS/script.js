@@ -27,8 +27,6 @@ function contactHeading() {
     toggleHeading.classList.toggle("contactHeadingAltStyle");
 }
 
-/*Created to mouseover content and shift it to the right*/
-
 var btn = document.getElementById("staffBtn");
 btn.style.visibility = "hidden";
 
@@ -43,4 +41,14 @@ function showStaffBtn() {
 
 function hideStaffBtn() {
     btn.style.visibility = "hidden"
+}
+
+function mouseEnter() {
+    var infoRight = document.querySelector(".jsAlign");
+    infoRight.classList.add("jsAlignClass");
+}
+
+function mouseExit() {
+    var infoRevert = document.querySelector(".jsAlign");
+    infoRevert.classList.remove("jsAlignClass");
 }

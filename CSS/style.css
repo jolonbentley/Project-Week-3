@@ -61,3 +61,11 @@ a:active {
   color: grey;
   font-size: 36pt;
 }
+
+.jsAlignClass {
+  text-align: end;
+}
+
+.jsAlignClassRevert {
+  text-align: center;
+}
