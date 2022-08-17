@@ -7,13 +7,15 @@ function changeMD() {
 
     if (ceoHeading.textContent == "Floyd Mayweather") {
         ceoHeading.innerHTML = "Thomas Bradley";
-        ceoParagraph.innerHTML = "Managing Director";
+        ceoRole.innerHTML = "Managing Director"
+        ceoParagraph.innerHTML = "Thomas has been with the company for 7 years and enjoys Netflix in his downtime";
         ceoImage.src = "/images/md.jpg";
         ceoButton.innerHTML = "Change to CEO";
     }
     else {
         ceoHeading.innerHTML = "Floyd Mayweather";
-        ceoParagraph.innerHTML = "Chief Executive Officer";
+        ceoRole.innerHTML = "CEO"
+        ceoParagraph.innerHTML = "Floyd has been with the company for 12 years and enjoys long walks on the beach in his downtime";
         ceoImage.src = "/Images/ceo-about.jpg";
         ceoButton.innerHTML = "Change to MD";
     }
